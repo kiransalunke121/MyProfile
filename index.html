@@ -4,113 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ProGrad</title>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li>ProGrad</li>
-            <li>
-                <ul>Home</ul>
-                <ul>BIO</ul>
-                <ul>PROTFOLIO</ul>
-                <ul>SKILLS</ul>
-                <ul>CONTACT</ul>
-            </li>
-        </ul>
-
-
-    </nav>
-</body>
-<header>
-    <nav>
-        <p>I BELIEVE IN</p>
-        <h1>EAT();SLEEP();CODE;REPEAT();</h1>
-    </nav>
-</header>
-<section>
-    <img src="/assets/profile.jpeg" alt="photo">
-</section>
-<article>
-    <h2>ProGrad</h2>
-    <p>Empreinte Engineer with a degree in Electronic & Communication
-        horng My very first paper with code to newton sarad my y strune
-        to customize the blog pages htradiced me HTML CSS.
-        Score, Pe percent of having the power structure pagos
-        on my own sounded amazing and hot when
-        decided on purse Web development
-    </p>
-    <a href="#">Download My Resume</a>
-</article>
-<section>
-    <h3>PROTFOLIO</h3>
-    <p>Some of my best Project are just fare</p>
-    <hr>
-    <div>
-        <article>
-            <img src="" alt="">
-            <h4>PERSONAL BLOG</h4>
-            <p>Lorem ipsum</p>
-        </article>
-        <article>
-            <img src="" alt="">
-            <h4>TIC TAC TOE</h4>
-            <p>Lorem ipsum</p>
-        </article>
-        <article>
-            <img src="" alt="">
-            <h4>TIME TABLE GENERATOR</h4>
-            <p>Lorem ipsum</p>
-        </article>
-    </div>
-</section>
-<section>
-    <h3>SKILLS</h3>
-    <div>
-        <h4>Technical Skills</h4>
-        <div>
+            <li class="logo-text">ProGrad</li>
             <ul>
-                <li>HTML</li>
-                <li>
-                    <progress></progress>
-                </li>
-                <li>CSS</li>
-                <li><progress></progress></li>
-                <liJAVASCRIPT>
-                    </li>
-                    <li><progress></progress></li>
-                    <li>ANGULAR JS</li>
-                    <li><progress></progress></li>
-                    <li>JAVA</li>
-                    <li><progress></progress></li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <h3>Languages</h3>
-        <div>
-            <ul>
-                <li>ENGLIS</li>
-                <li><progress></progress></li>
-                <li>HINDI</li>
-                <li><progress></progress></li>
-                <li>MARATHI</li>
-                <li><progress></progress></li>
-            </ul>
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#bio" class="nav-link">BIO</a></li>
+                <li><a href="#protfolio" class="nav-link">PROTFOLIO</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
+            </ul </ul> </nav> </body> <header id="home">
+            <div>
+                <p>I BELIEVE IN</p>
+                <h1>EAT() ; SLEEP() ; CODE(); REPEAT();</h1>
+            </div>
+            </header>
+            <section id="bio">
+                <img src="/assets/profile.jpeg" alt="photo">
+                <article>
+                    <h2>ProGrad</h2>
+                    <p>I am a passionate Engineer with a degree in Information Technology Engineering.
+                        My very first experience with code was at the time when I started my own blog.
+                        My struggle to customize the blog pages introduced me to HTML & CSS. Sooner,
+                        the excitement of having the power to structure pages on my own sounded amazing and that's
+                        when I decided to purse Web development.
+                        <span class="break"></span>
+                        <br>
+                        Recently, I have taken up a Full Stack Development program with FACE.
+                        I have knowledge of HTML, CSS and JavaScript, Java, C++ and Data Structures.
+                        Rational thought process and goal-oriented planning are my strengths.
+                        <span class="break"></span>
+                        <br>
+                        I am currently on the look out for a challenging role to build products that make a difference.
+                    </p>
+                    <br><br>
+                    <a href="https://drive.google.com/file/d/1scpHE_D64diDOKHK1kGvTEMHa8W3iqku/view?usp=drivesdk" class="link-button">Download My Resume</a>
+                </article>
+            </section>
+            <section id="protfolio">
+                <h3>PROTFOLIO</h3>
+                <p>Some of my best Project are just fare</p>
+                <hr>
+                <div>
+                    <article>
+                        <img src="assets/Coding-icon.svg " alt="">
+                        <h4>PERSONAL BLOG</h4>
+                        <p>Lorem ipsum</p>
+                    </article>
+                    <article>
+                        <img src="assets/Coding-icon.svg" alt="">
+                        <h4>TIC TAC TOE</h4>
+                        <p>Lorem ipsum</p>
+                    </article>
+                    <article>
+                        <img src="assets/Coding-icon.svg" alt="">
+                        <h4>TIME TABLE GENERATOR</h4>
+                        <p>Lorem ipsum</p>
+                    </article>
+                </div>
+            </section>
+            <section id="skills">
+                <h3>SKILLS</h3>
+                <div id="skills-container">
+                    <div>
+                        <h4>Technical Skills</h4>
+                        <div>
+                            <ul>
+                                <li>HTML</li>
+                                <li>
+                                    <progress max="100" value="80"></progress>
+                                </li>
+                                <li>CSS</li>
+                                <li><progress max="100" value="80"></progress></li>
+                                <li>JAVASCRIPT</li>
+                                <li><progress max="100" value="80"></progress></li>
+                                <li>ANGULAR JS</li>
+                                <li><progress max="100" value="80"></progress></li>
+                                <li>JAVA</li>
+                                <li><progress max="100" value="80"></progress></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Languages</h3>
+                        <div>
+                            <ul>
+                                <li>ENGLIS</li>
+                                <li><progress max="100" value="80"></progress></li>
+                                <li>HINDI</li>
+                                <li><progress max="100" value="80"></progress></li>
+                                <li>MARATHI</li>
+                                <li><progress max="100" value="80"></progress></li>
+                            </ul>
 
-        </div>
-    </div>
-</section>
-<footer>
-    <h3>CONTACT</h3>
-    <form action="#">
-        <input type="text" placeholder="Enter Your Name">
-        <input type="text" placeholder="Enter Your Email">
-        <input type="text" placeholder="Enter Your Message">
-        <button type="submit">submit</button>
+                        </div>
+                    </div>
+                </div>
 
-    </form>
-</footer>
+            </section>
+            <footer id="contact">
+                <h3>CONTACT</h3>
+                <form action="#">
+                    <input type="text" class="input" placeholder="Enter Your Name">
+                    <input type="text" class="input" placeholder="Enter Your Email">
+                    <input type="text" class="input" placeholder="Enter Your Message">
+                    <button type="submit" class="link-button">submit</button>
+
+                </form>
+            </footer>
 
 </html>
